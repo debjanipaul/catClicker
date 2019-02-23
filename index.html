@@ -6,25 +6,21 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <div class="container">
-      <div class="clickText">Click Us!</div>
-    </div>
+    <H1 class="title">Cat-Clicker</H1>
+    <div id="frame">
+      <div class="container">
+        <ul class="clickCat" id="listOfCats"></ul>
+      </div>
 
-    <div class="catContainer">
-      <div>
-          <div id="name1" class="catName"></div>
-          <div id="catPic1">
-              <img class="pic" src="images/catPic1.jpg" alt="Cat Picture">
+      <div class="catContainer">
+        <div>
+          <div id="name" class="catName"></div>
+          <div id="catPics"></div>
+          <div class="score"> Number of clicks: <span id="clicks1">0</span>
           </div>
-          <div class="score">Score: <span id="clicks1">0</span></div>
-     </div>
-     <div>
-        <div id="name2" class="catName"></div>
-        <div id="catPic">
-          <img class="pic" src="images/catPic.jpg" alt="Cat Picture">
         </div>
-        <div class="score">Score: <span id="clicks">0</span></div>
-     </div>
+      </div>
+    </div>
 
 
   <script type="text/javascript" src="script.js"></script>
