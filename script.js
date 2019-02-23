@@ -28,7 +28,7 @@ for(var i = 0; i < cats.length; i++){
       return function(e) {
         catPics.innerHTML = '';
         name.innerHTML = '';
-        clicks.innerHTML = '';
+
 
         //Display cat name
         let catName = document.createElement('h6');
@@ -44,6 +44,7 @@ for(var i = 0; i < cats.length; i++){
 
         //counter functionality
         catImage.addEventListener("click", (function(e) {
+          clicks.innerHTML = '';
           return function(e) {
             score++;
             clicks.innerHTML = score;
